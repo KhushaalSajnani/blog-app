@@ -1,0 +1,55 @@
+
+/*Heading font
+font-family: 'Rubik Vinyl', cursive;
+*/
+@import url('https://fonts.googleapis.com/css2?family=Prosto+One&display=swap');
+.blog-name{
+    font-family: 'Prosto One', cursive;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap');
+.blog-data{
+    font-family: 'Merriweather', serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@1,300&display=swap');
+.blog-writer{
+    font-family: 'Titillium Web', sans-serif;
+}
+
+
+.blog-container{
+    height: fit-content;
+    padding: 5% 0;
+    width: 100%;
+    /*background-color: darkblue;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog-card{
+    height: 100%;
+    width: 90%;
+    background-color: whitesmoke;
+    overflow-y: scroll;
+    padding: 5% 3%;
+    border: 2px dashed black;
+}
+
+.blog-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blog-writer{
+    margin: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog-data > p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

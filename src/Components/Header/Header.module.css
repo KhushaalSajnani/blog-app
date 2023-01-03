@@ -1,0 +1,17 @@
+.header-container{
+    height: 10vh;
+    max-width: 100vw;
+    background-color: darkred;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: wheat;
+}
+
+.header-container>h2{
+    border-bottom: 2px solid wheat;
+    border-top: 2px solid wheat;
+}
+
+
